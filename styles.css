@@ -1,0 +1,187 @@
+body, html {
+    background-size: 100%;
+    background-color: navy;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#name {
+    color: white;
+    text-align: center;
+    background-color: red;
+    background-size: 50%;
+}
+
+#spaceX {
+    width: 100vw;
+    height: 100vh;
+}
+
+#image {
+    margin-left: 18%;
+}
+
+
+#container {
+    height: 100vh;
+    width: 100vw;
+    outline: 1px solid black;
+    position: relative;
+    background-color: white;
+}
+
+#guy {
+    position: absolute;
+    bottom: 0;
+    left: 360px;
+    height: 150px;
+    width: 80px;
+
+}
+
+#Al {
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+
+#glob {
+    position: absolute;
+    top: 40px;
+    left: 70px;
+    width: 40px;
+    height: 40px;
+}
+
+#Al2 {
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+#glob2 {
+    position: absolute;
+    top: 40px;
+    right: 4%;
+    width: 40px;
+    height: 40px;
+}
+
+
+
+#playBtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    opacity: 1;
+    background-color: crimson;
+    border: 5px outset crimson;
+    font-size: 45pt;
+    font-family: 'Play', sans-serif;
+    border-radius: 12px;
+}
+
+#b2 {
+    position: relative;
+    bottom: 36%;
+    left: -20%;
+    background-color: crimson;
+    border: 5px outset crimson;
+    font-size: 50pt;
+    font-family: 'Play', sans-serif;
+    border-radius: 12px;
+}
+
+#title {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 100pt;
+    opacity: 1;
+    transition: all 1s;
+}
+
+.fadeOut {
+    animation: fadeOut 1s ease-in-out forwards;
+}
+
+.fadeIn {
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+#fs {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    color: white;
+    text-align: center;
+    background-color: transparent;
+    font-family: 'Amatic SC', cursive;
+    font-size: 75pt;
+    transform: translate(-50%);
+}
+
+#score {
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    width: 10%;
+    height: 4%;
+    color: white;
+    text-align: center;
+    background-color: transparent;
+    font-size: 100pt;
+    opacity: .8;
+}
+
+#result {
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    width: 20%;
+    height: 20%;
+    color: transparent;
+}
+
+#result2 {
+    position: absolute;
+    top: 115%;
+    left: 40%;
+    width: 20%;
+    height: 20%;
+    color: transparent;
+}
+
+#hs {
+    position: absolute;
+    top: 83%;
+    left: 68%;
+    width: 10%;
+    height: 4%;
+    color: white;
+}
+
+@keyframes fadeOut {
+    from {
+       opacity: 1;
+    }
+    to {
+       opacity: 0;
+    }
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+
+}
